@@ -66,7 +66,7 @@ def main():
         try:
             api_key = sys.argv[2]
         except IndexError:
-            api_key = 'a3103f91905fe1d94edb2b9c7847f6249f5c30860a2145114684fcd6eae0b10a'
+            api_key = 'YOUR_API_KEY'
         csv_url = "csv_url.csv"
         csv_submit_response = 'submit_result.csv'
         csv_get_response = 'get_report_result.csv'
